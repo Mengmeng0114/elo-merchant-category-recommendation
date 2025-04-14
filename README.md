@@ -31,7 +31,11 @@ The project is organized into several Jupyter notebooks:
 The project implements three different approaches:
 1. Random Forest
 2. LightGBM with Tree-structured Parzen Estimators (TPE)
-3. XGBoost
+3. XGBoost with NLP Features
+   - Utilizes CountVectorizer and TF-IDF for text feature processing
+   - Processes merchant IDs, category IDs, and location information as text features
+   - Combines traditional numerical features with NLP-derived features
+   - Implements Bayesian optimization for hyperparameter tuning
 
 ## Getting Started
 
